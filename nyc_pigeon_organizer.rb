@@ -1,5 +1,7 @@
 def nyc_pigeon_organizer(data)
-  names = []
-  pigeon_data.reduce({}) do |names, (keys,values)
+  names = ["Theo", "Peter Jr.", "Lucky", "Ms. K", "Queenie", "Andrew", "Alex"]
+  pigeon_data.reduce({}) do |names, (keys,values)|
+    names=names[0]
+    
   
 end
